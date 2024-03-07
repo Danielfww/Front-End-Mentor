@@ -1,0 +1,41 @@
+* {
+  background-color:purple;
+}
+
+html, body {
+  height: 100%;
+}
+
+img {
+  max-width:100%;
+  height:250px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  justify-content:center;
+  padding:50px;
+}
+
+.container {
+  background-color:white;
+  padding: 1.25rem;
+  border-radius:0.625rem;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0);
+
+}
+
+.one {
+    text-align: center;
+    margin-top:-10px;
+    overflow:auto;
+  font-family:"Outfit";
+}
+.two {
+    text-align: center;
+    margin-top:-10px;
+    overflow:auto;
+  font-family:"Outfit";
+}
+
+
+
