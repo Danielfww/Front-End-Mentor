@@ -1,3 +1,6 @@
+<!--https://codepen.io/danielfww/pen/zYXvJaE?editors=1100-->
+
+
 * {
     margin:0;
   padding:0;
@@ -27,17 +30,13 @@ img {
 
 .container {
   background-color:white;
-  padding: 1.25rem;
+  padding: .55rem;
   border-radius: 0.5rem;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
   justify-content:center;
-  display:block;
-  width:190px;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top: 90px;
-  margin-bottom: auto;
-  
+  display:block; 
+  width:198px;
+  margin-top: 145px;  
 }
 
 .container img{
@@ -47,6 +46,26 @@ img {
 
 .container p {
   border-radius:0.25rem;
+  margin-bottom:10px;  
+}
+.container h1 {
+border-radius:0.625rem;
+  margin-bottom:0px
+}
 
-
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  overflow: auto;
+  font-family: "Outfit";
+  font-size: 15px;
+}
+.two {
+  text-align: center;
+  margin-top: -10px;
+  overflow: auto;
+  font-family: "Outfit";
+  font-size: 12px;
+  color:grey;
+}
 
