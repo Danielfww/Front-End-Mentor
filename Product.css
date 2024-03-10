@@ -1,0 +1,85 @@
+* {
+  margin:0 auto;
+  padding:0 auto;
+}
+
+body {
+  background-color:hsl(30, 38%, 92%);
+  margin-right:auto;
+  margin-left:auto;
+  padding:20px;
+  
+}
+
+.container {
+  background-color:orange;
+  display:block;
+  position:center;
+  width:250px;
+  height:400px;
+  justify-content:flex-end;
+  border-radius:.25rem;
+  display:inline-flex;
+  float:left;
+  margin-left:180px;
+  margin-right:auto;
+  margin-top:75px;
+  
+}
+
+.container2 {
+  background-color:lightgreen;
+  display:block;
+  width:450px;
+  height:400px;
+  justify-content:center;
+  border-radius:.25rem;
+  float:left
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:75px;
+}
+
+img {
+  width:250px;
+  height:400px;
+  display:flex;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+
+.fraunces-<uniquifier> {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.perfume {
+  font-family:ontserrat;
+  letter-spacing:.25em;
+  text-alignt:left;
+}
+
+h1 {
+  font-family:fraunces;
+  text-align:left;
+}
+
+.perfume2 {
+  font-family:montserrat;
+  font-size:15px;
+}
